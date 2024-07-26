@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['good', 'karigot', 'phatora']
+
+roboflow:
+  workspace: vishakh-s-wz2c4
+  project: arecanut
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vishakh-s-wz2c4/arecanut/dataset/1
